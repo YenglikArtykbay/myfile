@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Work with css</title>
+   <link rel="stylesheet" href="styles.css"> <!--Подключение external styles-->
+</head>
+<body>
+    <h1 style="color: blueviolet;">Заголовок 1</h1> <!--Встроенный стиль, самая высокая приоритетность-->
+    <p>Здесь должен был быть текст для абзаца(но я не придумала)</p>    
+    <h2 >Заголовок 2</h2>
+    <p class="routine">2-ой абзац</p>  <!--Стиль класса стоит выше чем стиль тега-->
+    <h2 id="header">Список дел</h2> <!--Стилизация через идентификатор-->
+    <ul>
+        <li class="routine">Сделать домашние задания</li> 
+        <li class="routine">Почалить</li>
+        <li>Погулять</li>
+    </ul>
+</body>
+</html>

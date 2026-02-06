@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+    margin: 20px;
+    padding: 15px 10px 10px 10px;
+}
+h1{
+    color:black;
+    text-align: justify;
+}
+p{
+    color: blue;
+    text-align: justify;
+    font-size: 15px;
+}
+.routine{
+    font-weight: bold;
+    color:chocolate;
+}
+#header{
+    color: red;
+    text-align: justify;
+}
+
