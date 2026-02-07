@@ -1,0 +1,31 @@
+h2{
+    color: red;
+}
+.header{
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
+.top{
+    font-weight: bold;
+}
+div{
+    background-image: url(phone.jpg);
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+#aot, #demon, #fa{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+}
+.bottom_img{
+    margin-top: auto;
+    max-width: 100%;
+    max-height: 150px;
+    overflow: hidden;
+}
