@@ -4,21 +4,47 @@
    <meta charset="UTF-8">
    <title>Document</title>
    <style>
-   .btn {
-     padding: 10px 20px;
-     background-color: #007bff;
-     color: white;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-     font-size: 16px;
-     transition: background-color 0.3s ease;
-   }
-   .btn:hover {
-     background-color: #0056b3;
-   }
+  div{
+    background-color: pink;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+  }
+  h1{
+    background-color: rgb(175, 0, 100);
+    margin: 10px 0;
+    padding: 10px;
+  }
+  p{
+    background-color: plum;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  .inline-to-block{
+    display: block;
+    background-color: bisque;
+  }
+  .block-to-inline{
+    display: inline;
+    background-color: blanchedalmond;
+    margin: 0 10px;
+  }
    </style>
 </head>
 <body>
- <button class="btn">Hover Me</button>
+  <div>(блочный)
+    <h1>Happy Valentine's day!(блочный)</h1>
+    <h2 class="block-to-inline">14 February</h2>
+    <h2 class="block-to-inline">14 February</h2>
+    <h2 class="block-to-inline">14 February(block-to-inline elements)</h2> <!--Блочные элементы преобразованные в линейные элементы с помощью display:inline-->
+    <p>Valentine’s Day is the day of love. On February 14, more than any other day of the year, romantic couples shower their better half with gifts and tokens of appreciation.(блочный)</p>
+  </div> <!--Блочные элементы -->
+  <img src="https://img.freepik.com/premium-vector/flat-valentines-day-background_98292-15191.jpg?semt=ais_hybrid" alt="Valentine's day image1">
+    <img src="https://img.freepik.com/premium-vector/flat-valentines-day-background_98292-15191.jpg?semt=ais_hybrid" alt="Valentine's day image1"> <!--Линейные элементы(img), стоят в одну линию-->
+  <img class="inline-to-block" src="https://i.pinimg.com/474x/0e/e1/42/0ee142c3b03137acf303a376920d92ff.jpg?nii=t" alt="Valentine's day image2"><!--Линейный элемент преобразованный в блочный элемент с помощью display:block-->
+  <div>
+    <p>Couples' day</p>
+    <img class="inline-to-block" src="https://static.vecteezy.com/system/resources/previews/026/838/463/non_2x/flat-cartoon-illustration-of-a-man-and-woman-embracing-each-other-happy-international-couple-day-happy-valentines-day-vector.jpg" alt="Couple image">
+    <a class="inline-to-block" href="https://en.wikipedia.org/wiki/Valentine%27s_Day?ysclid=mll16bqxlv946845703" target="_blank">Valentine's day wikipedia</a>
+  </div>
 </body>
